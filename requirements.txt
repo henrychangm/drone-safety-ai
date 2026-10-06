@@ -1,0 +1,11 @@
+# Python 3.12 recomendado. En Mac Intel (x86_64) PyTorch solo publica ruedas hasta 2.2.2,
+# que a su vez exige numpy<2. En Apple Silicon / Linux puedes relajar estos pins.
+torch==2.2.2
+torchvision==0.17.2
+numpy<2
+ultralytics>=8.3
+opencv-python>=4.9
+python-dotenv>=1.0
+lap>=0.5.12  # requerido por ByteTrack (asignación lineal)
+fastapi>=0.110
+uvicorn>=0.29

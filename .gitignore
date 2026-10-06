@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+# Modelos y evidencias: no se versionan
+models/*
+!models/.gitkeep
+data/incidents/*
+data/snapshots/*
+!data/incidents/.gitkeep
+!data/snapshots/.gitkeep
+data/datasets/
+models/runs/
+data_demo/
