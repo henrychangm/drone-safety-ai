@@ -17,7 +17,7 @@ que una persona revisa después en un dashboard web.
 ## Cómo funciona
 
 ```
-DJI Mini 5 Pro → RC 2 → DJI Fly (RTMP) → MediaMTX → rtsp://127.0.0.1:8554/drone
+DJI Mini 5 Pro → RC 2 → DJI Fly (RTMP) → MediaMTX → rtsp://127.x.x.x:8554/drone
                                                           │
                                   ┌───────────────────────┘
                                   ▼
